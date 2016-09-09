@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>手机页面demo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="lal" content="">
+		<link rel="apple-touch-icon-precomposed" href="http://3gimg.qq.com/wap30/info/info5/img/logo_icon.png">
+
+		<link rel="stylesheet" href="lib/css/reset.css">
+		<link rel="stylesheet" href="css/demo.css">
+	</head>
+	<body>
+		
+		<div class="content-wrapper">
+			<!-- <div class="tabs">
+				<ul>
+					<li>
+						<a href="#">微信</a>
+					</li>
+					<li>
+						<a href="#">通讯录</a>
+					</li>
+					<li>
+						<a href="#">发现</a>
+					</li>
+					<li>
+						<a href="#">我</a>
+					</li>
+				</ul>
+			</div> -->
+		
+			<ul class="content" ng-app="">
+				<li class="content-bolck">
+					<a href="http://www.runoob.com/angularjs/angularjs-intro.html">
+						<div class="head-img">
+							<img src="images/icon-head.jpg">  <!-- 头像图片动态加载 -->
+						</div>
+						<div class="head-name">
+							<h1 ng-model="name">{{name}}</h1>
+							<span ng-model="wechat_no">微信号 : {{wechat_no}}</span>
+						</div>
+						<div class="head-code">
+							<img id="we_code" src="images/icon-code.jpg">  <!-- 二维码图片动态加载 -->
+						</div>
+					</a>
+				</li>
+
+				<li class="content-block">
+					<ul>
+						<li class="divide-line phones">
+							<a href="http://www.runoob.com/angularjs/angularjs-intro.html"><span>相册</span></a>
+						</li>
+						<li class="collect">
+							<a href="#">
+								<span>收藏</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="content-block">
+					<ul>
+						<li class="divide-line wallet">
+							<a href="#">
+								<span>钱包</span>
+							</a>
+						</li>
+						<li class="card">
+							<a href="#">
+								<span>卡包</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="content-block">
+					<ul>
+						<li class="expression">
+							<a href="#">
+								<span>表情</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="content-block">
+					<ul>
+						<li class="setting last">
+							<a href="#">
+								<span>设置</span>
+								<span class="set-tips" ng-model="account_status">{{account_status}}</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+		<script src="lib/js/jquery.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+		<script type="text/javascript">
+			$("#we_code").on("click", function(){
+				alert("123");
+			})
+		</script>
+	</body>
+</html>
+

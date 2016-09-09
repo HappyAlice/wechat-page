@@ -1,0 +1,118 @@
+body{
+	font-family: "microsoft yahei";
+	background-color: #ebebeb;
+}
+.content-wrapper a{
+	display: inline-block;
+	width: 100%;
+}
+
+
+/*.tabs{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: .1rem solid #ebebeb;
+	background-color: #fff;
+}
+.tabs ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	line-height: 3rem;
+}
+.tabs ul li a{
+	color: #999;
+}*/
+
+.content-wrapper{  /*设置背景色*/
+	width: 100%;
+	height: 100%;
+	padding-top: 15px;
+}
+ul.content > li{
+	background-color: #fff;
+	margin-bottom: 1rem;
+	padding: .4rem 1.5rem;
+}
+}
+ul.content li a{
+	display: block;
+}
+.content-bolck .head-img{  /*设置头像大小*/
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+}
+.head-img img,  /*设置图片大小为容器的大小*/
+.head-code img{
+	width: 100%;
+	height: 100%;
+}
+.content-bolck .head-name{
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: top;
+    margin-top: .2rem;
+}
+.head-name h1{
+	font-size: 1rem;
+	margin-bottom: 8px;
+}
+.head-name span{
+	font-size: .6rem;
+	color: #999;
+}
+.head-code{  /*设置二维码样式*/
+	display: inline-block;
+	float: right;
+	margin-top: 1.2rem;
+	width: 1rem;
+	height: 1rem;
+	z-index: 100;
+}
+
+ul.content > li ul li{ /*设置二级li样式*/
+	padding: .5rem 0 .5rem 2rem;
+}
+.divide-line{  /*二级li中的分割线*/
+	border-bottom: .12rem solid #ebebeb;
+}
+.set-tips{
+	float: right;
+	font-size: .6rem;
+	color: #999;
+}
+
+/*  S  小图标*/
+.phones{
+	background: url(../images/icon_xiangce.png) left center no-repeat;
+	background-size: 1.5rem;
+}
+.collect{
+	background: url(../images/icon_shoucang.png) left center no-repeat;
+	background-size: 1.5rem;
+}
+.wallet{
+	background: url(../images/icon_qianbao.png) left center no-repeat;
+	background-size: 1.5rem;
+}
+.card{
+	background: url(../images/icon_kabao.png) left center no-repeat;
+	background-size: 1.5rem;
+}
+.expression{
+	background: url(../images/icon_biaoqing.png) left center no-repeat;
+	background-size: 1.5rem;
+}
+.expression{
+	background: url(../images/icon_biaoqing.png) left center no-repeat;
+	background-size: 1.5rem;
+}
+.setting{
+	background: url(../images/icon_shezhi.png) left center no-repeat;
+	background-size: 1.5rem;
+}
+
+/*  E  小图标*/
+
